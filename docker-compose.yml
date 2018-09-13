@@ -24,12 +24,12 @@ services:
       - ./www:/usr/share/nginx/html
   db:
     restart: always
-    image: mariadb:10.1
+    image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: 123456
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
-      MYSQL_DATABASE: database
+      MYSQL_ROOT_PASSWORD: M3.n17v11
+      MYSQL_USER: ballmdr
+      MYSQL_PASSWORD: M3n17v11
+      MYSQL_DATABASE: sarut_wp
     volumes:
       - ./mysql/databases:/var/lib/mysql
       - ./log/mysql:/var/log/mysql
