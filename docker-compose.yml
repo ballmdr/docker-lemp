@@ -26,10 +26,10 @@ services:
     restart: always
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: M3.n17v11
-      MYSQL_USER: ballmdr
-      MYSQL_PASSWORD: M3n17v11
-      MYSQL_DATABASE: sarut_wp
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_USER: 
+      MYSQL_PASSWORD: 
+      MYSQL_DATABASE: 
     volumes:
       - ./mysql/databases:/var/lib/mysql
       - ./log/mysql:/var/log/mysql
